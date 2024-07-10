@@ -14,7 +14,7 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	dbURL := os.Getenv("DB_URL")
 	dbPassword := os.Getenv("DB_PASSWORD")
 
-	io.WriteString(w, fmt.Sprintf("[v6] Hello, Helm! Message from helm values: %s, From namespace: %s, From host: %s, Get Database Connect URL: %s, Database Connect Password: %s", message, namespace, host, dbURL, dbPassword))
+	io.WriteString(w, fmt.Sprintf("xpp[v6] Hello, Helm! Message from helm values: %s, From namespace: %s, From host: %s, Get Database Connect URL: %s, Database Connect Password: %s", message, namespace, host, dbURL, dbPassword))
 }
 
 func main() {
