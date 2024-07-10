@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   hello-helm:
   - apiVersion: v2
+    appVersion: 1.16.4
+    created: "2024-07-10T09:38:23.105887459Z"
+    description: A k8s tutorials in https://github.com/xuepp/helm-charts
+    digest: 0a15972f86606e804ff59890670f0f442845fea515b1897f5057e9656a5ae0ff
+    name: hello-helm
+    type: application
+    urls:
+    - https://github.com/xuepp/helm-charts/releases/download/hello-helm-0.1.4/hello-helm-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
     appVersion: 1.16.3
     created: "2024-07-10T08:58:17.39965017Z"
     description: A k8s tutorials in https://github.com/xuepp/helm-charts
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/xuepp/helm-charts/releases/download/hello-helm-0.1.0/hello-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-10T08:58:17.39967203Z"
+generated: "2024-07-10T09:38:23.105906415Z"
